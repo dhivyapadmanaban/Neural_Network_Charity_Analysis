@@ -20,11 +20,11 @@ With the knowledge of machine learning and neural networks,I used the features i
 
 ### Data Preprocessing
 
-Before building ML using neural network, I performed data pre processing to analyze, clean and scale the data suitable for neural network model.
+Before building ML using neural network, I performed data preprocessing to analyze, clean and scale the data suitable for neural network model.
 
 - **IS_SUCCESSSFUL** column variable is considered as target of this model.
 - **APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT** variables are the features of the model.
-- **EIN** and **NAME** are niether target nor features so they are dropped from the dataset.
+- **EIN** and **NAME** are neither target nor features so they are dropped from the dataset.
 
 
 ###  Compiling, Training, and Evaluating the Model
@@ -112,6 +112,6 @@ Still, the model was not able to reach the target 75%. The accuracy for my model
 
 ## Summary
 
-After many attempts, model stays in the accuracy range of 72.2 - 72.6 % and not reaching 75% required accuracy. This shows the model is overfitted, however we can further optimize the mode by additional data to dataset and removing more features and retrain the model.
+After many attempts, model stays in the accuracy range of 72.2 - 72.6 % and not reaching 75% required accuracy. This shows the model is over-fitted, however we can further optimize the mode by additional data to dataset and removing more features and retrain the model.
 
-Since the accuracy is not upto the standard using neural network model we can try applying other ML model like Random Forest classifiers.This model is also appropriate for this binary classification problem and can often perform comparably to deep learning models with just two hidden layers.
+Since the accuracy is not up to the standard using neural network model we can try applying other ML model like Random Forest classifiers.This model is also appropriate for this binary classification problem and can often perform comparably to deep learning models with just two hidden layers.
